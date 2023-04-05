@@ -1,0 +1,331 @@
+.PartUser{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lineHead {
+    border: 1px solid rgba(128, 128, 128, 0.461);
+    width: 72%;
+ }
+ .User-Place{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    direction: rtl;
+    margin-bottom: 3rem;
+ }
+ .User-Place .Tab-Details{
+    width: 21rem;
+    height: 28rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 14px 11px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+ }
+ .User-Place .Tab-Details .Name{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;  
+    margin-top: 2rem;  
+ }
+ .User-Place .Tab-Details .Number{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;  
+    margin-top: 1rem;  
+    background-color: #fff;
+    padding: 5px 0;
+    font-size: 13px;
+    margin-bottom: 1rem;
+ }
+ .User-Place .Tab-Details h5{
+    width: 90%;
+    text-align: right;
+    margin: 5px 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+ }
+ .User-Place .Tab-Details .lineTab{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.602);
+    margin: 1rem 0;
+ }
+ .User-Place .Tab-Details h5:hover{
+    background-color: #B42A31;
+    color: #fff;
+ 
+ }
+ .activeUser{
+    background-color: #B42A31;
+    color: #fff;
+ }
+ .Info-Tab{
+    width: 60%;
+    height: 40rem;
+    margin-right: 2rem;
+    overflow: hidden;
+ }
+ .Info-Tab .PageStyle{
+    width: 100%;
+    height: 28rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+
+
+ }
+ .Info-Tab .Pishkhan{
+    flex-direction: column;
+    background: url(/Images/v748-toon-107.jpg) no-repeat center center/cover;
+
+ }
+ .Info-Tab .EditUser{
+    flex-direction: column;
+    background: url(/Images/v748-toon-107.jpg) no-repeat center center/cover;
+
+ }
+ .Info-Tab .BillEdit{
+    flex-direction: column;
+    background-color: #F5F5F5;
+    box-shadow: inset 0px 0px 20px 7px rgba(0,0,0,0.1);
+ }
+ .Info-Tab .Pishkhan h2{
+    margin-top: 3rem;
+    width: 50%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 2rem;
+ }
+ .Info-Tab .Pishkhan .doubleItem{
+   width: 80%;
+   height: 6rem;
+   margin-top: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .Info-Tab .Pishkhan .doubleItem h3{
+   background-color: #fff;
+   width: 45%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 13px;
+   border-radius: 10px;
+ }
+ .Info-Tab .Pishkhan  h3{
+   background-color: #fff;
+   width: 80%;
+   height: 6rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 13px;
+   border-radius: 10px;
+   margin-top: 2rem;
+ }
+ .Info-Tab .EditUser  h3{
+   margin-top: 0.5rem;
+   border-bottom: 1px solid black;
+   width: 40%;
+   text-align: center;
+   padding: 10px ;
+
+}
+ .Info-Tab .EditUser .Input-Edit{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 2rem;
+   flex-wrap: wrap;
+}
+ .Info-Tab .EditUser .Input-Edit input{
+   width: 45%;
+   height: 2.5rem;
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.467);
+   margin: 5px 0;
+   padding-right: 1rem;
+}
+ .Info-Tab .EditUser .Input-Edit input:nth-child(4){
+   background-color: #D9D9D9;
+   border: none;
+}
+ .Info-Tab .EditUser .Input-Edit input::placeholder{
+  font-family: "Shabnam" ;
+  color: rgba(0, 0, 0, 0.253);
+   
+}
+ .Info-Tab .EditUser .Input-Edit textarea::placeholder{
+  font-family: "Shabnam" ;
+  color: rgba(0, 0, 0, 0.253);
+   
+}
+ .Info-Tab .EditUser .Input-Edit textarea{
+   width: 100%;
+   height: 6rem;
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.467);
+   margin: 10px 0;
+   padding: 1rem;
+}
+ .Info-Tab .EditUser button{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-family: "Shabnam" ;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+ .Info-Tab .EditUser button:hover{
+
+    background-color: #B42A31;
+    
+}
+.Info-Tab .BillEdit  h3{
+    margin-top: 0.5rem;
+    border-bottom: 1px solid black;
+    width: 40%;
+    text-align: center;
+    padding: 10px ;
+ 
+ }
+.Info-Tab .BillEdit  .ListBill{
+   width: 80%;
+   margin-top: 1rem;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   height: 80%;
+   overflow: auto;
+ }
+.Info-Tab .BillEdit h5{
+   width: 100%;
+   text-align: right;
+   padding: 1rem 2rem;
+   font-size: 11px;
+   margin-bottom: -1rem;
+ }
+.Info-Tab .BillEdit .Row-Bill{
+   width: 100%;
+   margin: 5px 0;
+   background-color: #fff;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+   padding: 8px 1rem;
+ }
+.Info-Tab .BillEdit .Row-Bill h6{
+   width: 70%;
+   padding-right: 1.5rem;
+ }
+.Info-Tab .BillEdit .Row-Bill a{
+    background-color: #D2EBFF;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    font-family: "Shabnam" ;
+    font-size: 11px;
+    text-decoration: none;
+   color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.Info-Tab .BillEdit .Row-Bill a:nth-child(3){
+    width: 10rem;
+    margin-right: 10px;
+ }
+ .listPlace{
+   height: 40rem !important;
+   flex-direction: column;
+   overflow:auto;
+   
+ }
+ 
+ .listPlace .TitleLists{
+   width: 100%;
+   padding: 0.5rem 3rem;
+   border: 1px solid #0C416D;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+ }
+ .listPlace .TitleLists .placeButton{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+ }
+ .listPlace .TitleLists .placeButton .basket{
+   background-color: #0C416D;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 8rem;
+   border-radius: 5px;
+   color: #fff;
+   direction: ltr;
+   padding: 5px;
+   cursor: pointer;
+ }
+ .listPlace .TitleLists .placeButton .basket img{
+   width: 20px;
+ }
+ .listPlace .TitleLists .placeButton .PriceArchive img{
+   width: 20px;
+ }
+ .listPlace .TitleLists .placeButton .PriceArchive{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 8rem;
+   border-radius: 5px;
+   direction: ltr;
+   padding: 5px;
+   cursor: pointer;
+   color: #0C416D;
+ }
+ .listPlace .TitleLists .placeButton .PriceArchive{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 8rem;
+   border-radius: 5px;
+   direction: ltr;
+   padding: 5px;
+   cursor: pointer;
+   color: #0C416D;
+ }
+ .listPlace .tablePrice{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.ForCpanel{
+   width: 100% !important;
+}
